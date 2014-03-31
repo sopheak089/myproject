@@ -1,0 +1,81 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+.Store-show-img img{
+    width: 250px;
+    height: 370px;
+    box-shadow: 0px 0px 10px rgb(255 255 255);
+}
+.Store-img img {
+    width: 100%;
+    height: 370px;
+    box-shadow: 0px 0px 10px rgb(255 255 255);
+    margin-top: 20px;
+
+}
+
+.Description-store{
+    width: 75%;
+}
+.col-lg-4 Image_tag img {
+    width: 126px;
+    height: 150px;
+}
+.Product_Image img{
+    width: 40px;
+    height: 55px;
+}
+.Title{
+    text-align: center;
+
+}
+.Quanity{
+    text-align: center;
+}
+.Description{
+    text-align: center;
+}
+.Image{
+    text-align: center;
+}
+.Price{
+    text-align: center;
+}
+.container.marketing{
+    margin-top: 5px;
+}
+.Li-Price{
+    display: inline-block;
+    text-align: center;
+}
+li.Align-Price{
+    text-align: center;
+    list-style: none;
+}
+
+.title{
+    text-align: center;
+}
+.price{
+    color: red;
+    text-align: center;
+}
+.new-time{
+    text-align: center;
+    color: blue;
+}
+.Shoping-cart{
+    color: red;
+    text-shadow: blue;
+    text-align: center;
+}
